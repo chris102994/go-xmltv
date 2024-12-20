@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"github.com/chris102994/xmltv/pkg/go-xmltv/models"
+	"github.com/chris102994/go-xmltv/pkg/xmltv/models"
 	"golang.org/x/net/html/charset"
 	"os"
 )
