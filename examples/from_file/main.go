@@ -23,7 +23,6 @@ func main() {
 	if err := decoder.Decode(&received); err != nil {
 		fmt.Printf("error: %v", err)
 	}
-
 	output, err := xml.MarshalIndent(received, "", "    ")
 
 	if err := os.WriteFile("out_xmltv.xml", output, 0644); err != nil {
